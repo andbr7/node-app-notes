@@ -43,7 +43,7 @@ yargs.command({
 //Creat list command
 yargs.command({
     command:'list',
-    describe:'list the note',
+    describe:'List the note',
     handler(){
         notes.listNotes()
     }

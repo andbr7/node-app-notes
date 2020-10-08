@@ -38,7 +38,7 @@ const removeNote =  (title) => {
 const listNotes = () => {
     const notes= loadNotes()
 
-    console.log(chalk.blue('Your notes:'))
+    console.log(chalk.blueBright('Your notes:'))
 
     notes.forEach((note) => {
       console.log(chalk.yellow(note.title))
