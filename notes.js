@@ -41,7 +41,7 @@ const listNotes = () => {
     console.log(chalk.blueBright('Your notes:'))
 
     notes.forEach((note) => {
-      console.log(chalk.yellow(note.title))
+      console.log(chalk.yellowBright(note.title))
 
     } )
     
